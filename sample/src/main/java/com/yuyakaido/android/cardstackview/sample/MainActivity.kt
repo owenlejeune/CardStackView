@@ -137,7 +137,7 @@ class MainActivity : AppCompatActivity(), CardStackListener {
     }
 
     private fun initialize() {
-        manager.setStackFrom(StackFrom.None)
+        manager.setStackFrom(StackFrom.Right)
         manager.setVisibleCount(3)
         manager.setTranslationInterval(8.0f)
         manager.setScaleInterval(0.95f)
